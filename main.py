@@ -1,6 +1,7 @@
 from dealer import Dealer
 from player import Player
 
+#insert player strategies here
 p1 = Player(1, ['player', 'banker', 'player', 'player', 'banker', 'banker'])
 p2 = Player(2, ['banker', 'player', 'banker', 'banker', 'player', 'player'])
 totalG = 0
